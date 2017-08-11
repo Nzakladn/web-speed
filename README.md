@@ -5,12 +5,12 @@ A python3 command-line script for testing the speed of a list websites
 ## Description
 
 Uses a line delimited input file of domains and prints to stdout or a json file that includes:
-    -DNS resolution time for the domain in seconds
-    -The IP the domain resolved to
-    -The time taken to establish a TCP connection to IP in seconds
-    -The HTTP response code
-    -The number of redirects the request went through
-    -If 200 OK is received, content load time of the web site in seconds
+* DNS resolution time for the domain in seconds
+* The IP the domain resolved to
+* The time taken to establish a TCP connection to IP in seconds
+* The HTTP response code
+* The number of redirects the request went through
+* If 200 OK is received, content load time of the web site in seconds
 
 Multi-threading for both overall website testing and for TCP time and content load testing is available in separate
  specified thread amounts.
