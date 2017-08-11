@@ -1,6 +1,6 @@
 # Website Speed Test Tool
 
-A python3 command-line script for testing speed of a list websites
+A python3 command-line script for testing the speed of a list websites
 
 ## Description
 
