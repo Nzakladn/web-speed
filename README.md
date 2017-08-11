@@ -21,12 +21,14 @@ requests
 
 ### Command Line Options
 
+```
 -i, --input         input file of hostname(s)
 -t, --threads       number of threads to use for host testing queue, defaults to 1 thread
 -o, --timeout       set timeout for website queue worker threads
 -j, --json          if specified, sets output to json file
 -u, --user_agent    specify a custom user-agent for requests
 -T, --tests         amount of threads each testing content load and TCP time, returns average, defaults to 1 thread
+```
 
 ### Example Usage
 
